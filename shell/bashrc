@@ -1,0 +1,19 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+#Pycharm command for Terminal execution
+alias charm='/usr/share/pycharm/bin/pycharm.sh'
+
+#Mars command for Terminal execution
+alias mars='"/home/ntignant/Documents/Lancaster/Digital_systems/11 - MIPS/Mars4_5.jar"'
+
+#PATH to Pycharm
+export PATH=$PATH:/usr/share/pycharm/bin/
